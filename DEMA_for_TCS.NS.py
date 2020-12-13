@@ -28,7 +28,7 @@ df
 
 #Visually show the close price
 df['Close'].plot(figsize=(12.2,6.4)) #Plot the data
-plt.title('Close Price for AMZN ')
+plt.title('Close Price ')
 plt.ylabel('INR Price ')
 plt.xlabel('Date')
 plt.show();
